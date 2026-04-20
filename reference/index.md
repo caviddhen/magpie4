@@ -437,7 +437,6 @@ Calculate reporting variables
 - [`trade()`](trade.md) : trade
 - [`tradeKastner()`](tradeKastner.md) : tradeKastner
 - [`tradeValue()`](tradeValue.md) : tradeValue
-- [`tradedPrimaries()`](tradedPrimaries.md) : tradedPrimaries
 - [`tradedPrimariesBilateral()`](tradedPrimariesBilateral.md) :
   tradedPrimariesBilateral
 - [`wageDevelopment()`](wageDevelopment.md) : wageDevelopment

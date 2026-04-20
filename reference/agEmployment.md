@@ -5,14 +5,7 @@ returns employment in crop+livestock production from MAgPIE results
 ## Usage
 
 ``` r
-agEmployment(
-  gdx,
-  type = "absolute",
-  detail = TRUE,
-  level = "reg",
-  prodAggr = TRUE,
-  file = NULL
-)
+agEmployment(gdx, type = "absolute", detail = TRUE, level = "reg", file = NULL)
 ```
 
 ## Arguments
@@ -30,17 +23,12 @@ agEmployment(
 
   if TRUE, employment is disaggregated to crop products, livestock
   products and (if available) mitigation measures, if FALSE only
-  aggregated employment is reported
+  aggregated employment is reported, if
 
 - level:
 
   spatial aggregation to report employment ("iso", "reg", "glo" or
   "regglo", if type is "absolute" also "grid")
-
-- prodAggr:
-
-  if TRUE, employment is aggregated to product level (kcr, kli), if
-  FALSE, employment is at product level
 
 - file:
 
